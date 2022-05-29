@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+      <div class="upward" onClick="scrollTopTop()"></div>
         <nav class="container">
           <a class="logo" href="index.html"><b><p>Real Life Mods</p></b></a>
           <div class="nav-toggle"><span></span></div>
@@ -25,12 +26,9 @@
         </nav>
       </header>
 
-
       <div class="containerp">
         <div class="posts-list-carousel">
-            <!-- Bootstrap 4 -->
           <div id="carousel" class="carousel slide" data-ride="carousel">
-            <!-- Индикаторы -->
             <ol class="carousel-indicators">
               <li data-target="#carousel" data-slide-to="0" class="active"></li>
               <li data-target="#carousel" data-slide-to="1"></li>
@@ -50,7 +48,6 @@
                 <div class="carousel-caption">Солнце</div>
               </div>
             </div>
-            <!-- Элементы управления -->
             <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Предыдущий</span>
@@ -87,10 +84,6 @@
                 </div>
               </div>
             </div>
-          </article>
-          <article id="post-2" class="post">
-            ...
-          </article>
         </div>
         
           </div>
@@ -107,5 +100,19 @@
               </div>
             </div>
           </footer>
+
+          <script>
+            window.addEventListener('scroll', function(){
+              var scroll = document.querySelector('.upward')
+              scroll.classList.toggle("active", window.scrollY>100)
+            })
+                function scrollTopTop(){
+                  window.scrollTo({
+                    top:0,
+                    behavior:'smooth'
+                  })
+                }
+          </script> 
+
           </body>
           </html>
