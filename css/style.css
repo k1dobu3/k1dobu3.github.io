@@ -1,0 +1,58 @@
+/*
+1. Header
+2. Main
+3. Footer
+*/
+
+body{
+    position: relative;
+	font-size: 18px;
+	line-height: 22px;
+	color: #AAD06C;
+	min-width: 1445px;
+	overflow-x: hidden;
+	height: auto;
+    margin: 0 auto;
+    background: #343534;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1700px;
+}
+
+.header-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;		
+	height: 150px;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+.main {
+
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
+
+.elements {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #AAD06C;
+}
+
+/*1. Header*/
+/*2. Main*/
+/*3. Footer*/
