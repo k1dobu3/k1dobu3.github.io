@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="/assets/img/icon/book.png">
+    <title>Библиотека МБОУ СОШ №32</title>
+
+    <!-- Scripts&import -->
+    <script src="/js/main.js"></script>
+    <script src="/js/scrollup.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="header-wrap">
+            <div class="header__logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <h1>Библиотека</h1>
+                    <pre><p id="logo-p">МБОУ СОШ №32  г. Новороссийска</p></pre>
+                </a>
+            </div>
+            <nav>   
+                <ul class="navbar">
+                    <li><a href="index.html">Новости</a></li>
+                    <li class="active"><a href="order.html">Расписание</a></li>
+                    <li><a href="ticket.html">Абонемент</a></li>
+                </ul>
+            </nav>
+            <button class="nav-btn"><img src="/assets/img/icon/menu (1).png" width="36px"></button>
+            <ul id="first-burger-menu" class="tablet-burger">
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Расписание</a></li>
+                <li><a href="#">Что-то</a></li>
+            </ul>
+            <button onclick="myFunction()" class="micro__nav-btn">Меню</button>
+        </div>
+        <ul id="myDropdown" class="burger-navbar">
+            <li><a href="index.html">Новости</a></li>
+            <li><a href="order.html">Расписание</a></li>
+            <li><a href="ticket.html">Что-то</a></li>
+        </ul>
+    </header>
+
+
+    <main class="container">
+        <div class="main-news">
+            <h2>Расписание работы библиотеки</h2>
+        </div>
+
+        <aside>
+            <div class="right-menu">
+                <h2>Меню</h2>
+                <div class="aside-nav">
+                    <p><a href="#">О библиотеке</a></p>
+                    <p><a href="#">Положения</a></p>
+                    <p><a href="#">Абонемент</a></p>
+                    <p><a href="#">Учебный фонд</a></p>
+                    <p><a href="#">Летняя литература</a></p>
+                    <p><a href="#">Нормативные док.</a></p>
+                </div>
+            </div>
+            <div class="right-contacts">
+                <h2>Контакты</h2>
+                <p>8 922 563-22-33</p>
+                <p>г. Новороссийск</br> ул. Первомайская 7А</p>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer class="footer-wrap">
+        <h3>Сайт библиотеки МБОУ СОШ №32 г.Новороссийска 2022</h3>
+        <div class="footer">
+            <div class="footer-block">
+                <div class="footer-nav">
+                    <p class="footer-nav-name">Навигация</p>
+                    <p class="footer-nav-elem"><a href="#">О библиотеке</a></p>
+                    <p class="footer-nav-elem"><a href="#">Новости</a></p>
+                    <p class="footer-nav-elem"><a href="#">Расписание</a></p>
+                </div>
+                <div class="footer-doc">
+                    <p class="footer-doc-name">Положения</p>
+                    <p class="footer-doc-elem"><a href="#">Положение библиотеки МБОУ СОШ №32</a></p>
+                    <p class="footer-doc-elem"><a href="#">Приказ от 30.08.2021 №471 </a></p>
+                </div>
+            </div>
+            <button onclick="ScrollUp()" id="up-btn" class="Up"></button>
+        </div>
+    </footer>
+</body>
+</html>

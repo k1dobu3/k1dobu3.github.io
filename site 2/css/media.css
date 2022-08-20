@@ -1,0 +1,168 @@
+@media screen and (max-width: 1650px) {
+    .main-news {
+        margin-right: 15px;
+    }
+
+    .right-menu p {
+        width: inherit;
+        height: 54px;
+    }
+
+    .right-menu p a {
+        font-size: 20px;
+    }
+    
+
+    .right-menu p::after {
+        display: none;
+    }
+}
+
+
+/* Tablet */
+
+@media screen and (max-width:1200px){
+    .header-wrap {
+        width: 100%;
+    }
+
+    .header__logo {
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+    
+    #logo-p {
+        margin: -1px 0 0 3px;
+        font-size: 16px;
+    }
+
+    .navbar {
+        column-gap: 14px;
+    }
+
+    .navbar li {
+        width: 140px;
+    }
+
+    .navbar li:hover ::after {
+        left: 11px;
+    }
+
+    .navbar li a {
+        font-size: 18px;
+    }
+
+    .active ::after {
+        left: 11px;
+    }
+
+
+    /* Tablet */
+
+    .container {
+        width: 90%;
+    }
+
+    .main-news {
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    .footer-wrap {
+        width: 100%;
+    }
+    
+    .footer {
+        width: inherit;
+    }
+
+    .footer-block {
+        margin-left: 20px;
+    }
+    
+    .Up {
+        margin-right: 20px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:925px){
+    .navbar {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    .footer-doc {
+        margin-left: 20px;
+    }
+
+    .Up {
+        margin-right: 20px;
+    }
+
+}
+
+/* Micro Mobile*/
+
+@media screen and (max-width:475px){
+    .header-wrap {
+        width:  100%;
+        height: 100px;
+        flex-direction: column;
+        padding: 15px 0 0 0;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    #logo-p {
+        margin: -1px 0 0 5px;
+        font-size: 11px;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .micro__nav-btn {
+        display: block;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .footer-wrap {
+        height: 60px;
+        padding-top: 12px;
+    }
+
+    .footer-block {
+        display: none;
+    }
+
+    .Up {
+        display: none;
+    }
+
+}
