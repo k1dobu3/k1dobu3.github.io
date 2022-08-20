@@ -196,7 +196,7 @@ nav {
 .container {
     width:  73.75%;
     height: auto;
-    margin: 75px auto;
+    margin: 30px auto 75px auto;
     padding: 0 10px;
     display: flex;
 
