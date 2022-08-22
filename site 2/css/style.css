@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @font-face {
 	font-family: 'DroidSans'; 
-	src: url(.../assets/fonts/DroidSans.ttf); 
+	src: url(./assets/fonts/DroidSans.ttf); 
 }
 
 /* Colors */
@@ -400,7 +400,7 @@ h3 {
     left: 12px;
     width:  70px;
     height: 70px;
-    background-image: url(/assets/img/icon/up.png);
+    background-image: url(./assets/img/icon/up.png);
     background-size: 36px 36px;
     background-repeat: no-repeat;
 }
@@ -412,7 +412,7 @@ h3 {
     left: 16px;
     width:  70px;
     height: 70px;
-    background-image: url(/assets/img/icon/up.png);
+    background-image: url(./assets/img/icon/up.png);
     background-size: 28px 28px;
     background-repeat: no-repeat;
 }
