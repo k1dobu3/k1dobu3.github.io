@@ -148,8 +148,24 @@
         display: block;
     }
 
+    .container {
+        width: 90%;
+        padding: 0 2px;
+        margin: 30px auto 75px auto;
+    }
+
+    .main-news {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main-news h2 {
+        font-size: 24px;
+        margin-top: 8px;
+    }
+
     h3 {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .footer-wrap {
