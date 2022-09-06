@@ -118,7 +118,7 @@ h1 {
 }
 
 .postheader-photo {
-	background-image:linear-gradient(180deg, rgba(0, 0, 0, 6.5e-05) 0%, rgba(0, 0, 0, 0.65) 100%), url(assets/image/1.jpg);
+	background-image:linear-gradient(180deg, rgba(0, 0, 0, 6.5e-05) 0%, rgba(0, 0, 0, 0.65) 100%), url(./assets/image/1.jpg);
 	height: 700px;
 	display: flex;
 	flex-direction: column-reverse;
