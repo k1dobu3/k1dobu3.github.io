@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'PT Serif'; 
+	src: url(../assets/fonts/PTSerif-Regular.ttf); 
+}
+
+body {
+    background-color: #C9A96E;
+}
+
+.container-404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 62.5%;
+    height: 100%;
+    margin: 10% auto;
+    font-family: 'PT Serif';
+    text-align: center;
+    color: #171717;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+a {
+    margin-top: 48px;
+    font-size: 20px;
+    color: #171717;
+}
+
+a:hover {
+    height: 30px;
+    margin-top: 48px;
+    font-size: 20px;
+    color: #171717;
+    text-decoration: underline;
+}
+
+@media  screen and (max-width:890px) {
+    .container-404 {
+        margin: 40% auto;
+    }
+}
