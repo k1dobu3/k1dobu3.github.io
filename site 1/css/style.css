@@ -109,7 +109,7 @@ h1 a::before {
     justify-content: flex-end;
     width: 100%;
     height: 700px;
-    background-image:linear-gradient(180deg, rgba(0, 0, 0, 6.5e-05) 0%, rgba(0, 0, 0, 0.65) 100%), url(/assets/image/1.jpg);
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 6.5e-05) 0%, rgba(0, 0, 0, 0.65) 100%), url(../assets/image/1.jpg);
 }
 
 .header-wrap {
@@ -590,24 +590,24 @@ h5 {
 }
 
 .facebook {
-    background-image: url(/assets/image/social/1.png);
+    background-image: url(../assets/image/social/1.png);
 }
 
 .twit {
-    background-image: url(/assets/image/social/5-white.svg);
+    background-image: url(../assets/image/social/5-white.svg);
 }
 
 .pint {
-    background-image: url(/assets/image/social/2.png);
+    background-image: url(../assets/image/social/2.png);
 }
 .google {
-    background-image: url(/assets/image/social/11.png);
+    background-image: url(../assets/image/social/11.png);
 }
 .be {
-    background-image: url(/assets/image/social/6.png);
+    background-image: url(../assets/image/social/6.png);
 }
 .inst {
-    background-image: url(/assets/image/social/7.png);
+    background-image: url(../assets/image/social/7.png);
 }
 
 .footer p {
