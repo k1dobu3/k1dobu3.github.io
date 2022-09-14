@@ -1,14 +1,14 @@
 @font-face {
 	font-family: 'FontName'; 
-	src: url(/assets/fonts/HKGrotesk-Regular.otf); 
+	src: url(../assets/fonts/HKGrotesk-Regular.otf); 
 }
 @font-face {
 	font-family: 'PT Sans'; 
-	src: url(/assets/fonts/PTSans-Regular.ttf); 
+	src: url(../assets/fonts/PTSans-Regular.ttf); 
 }
 @font-face {
 	font-family: 'PT Serif'; 
-	src: url(/assets/fonts/PTSerif-Regular.ttf); 
+	src: url(../assets/fonts/PTSerif-Regular.ttf); 
 }
 
 /*1. Header*/
