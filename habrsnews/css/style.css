@@ -8,15 +8,15 @@
 
 @font-face {
 	font-family: 'Amiko-SemiBold'; 
-	src: url(/fonts/Amiko-SemiBold.ttf); 
+	src: url(../fonts/Amiko-SemiBold.ttf); 
 }
 @font-face {
 	font-family: 'Amiko-Regular'; 
-	src: url(/fonts/Amiko-Regular.ttf); 
+	src: url(../fonts/Amiko-Regular.ttf); 
 }
 @font-face {
 	font-family: 'Amiko-Bold'; 
-	src: url(/fonts/Amiko-Bold.ttf); 
+	src: url(../fonts/Amiko-Bold.ttf); 
 }
 
 body{
