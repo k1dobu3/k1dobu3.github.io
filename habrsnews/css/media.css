@@ -1,4 +1,13 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
+    .main {
+        width: 94%;
+    }
+
+    .project-descr {
+        width: 90%;
+        margin: 0 10px;
+    }
+    
     .tg-a {
         position: relative;
         display: flex;
@@ -33,5 +42,53 @@
       .tg-a img {
         width: 28px;
         margin-right: 6px;
+    }
+}
+
+@media screen and (min-width: 1950px) {
+
+    h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    .project-descr {
+        width: 73.2%;
+        margin: 0 10px;
+        font-size: 28px;
+        letter-spacing: 1px;
+        line-height: 32px;
+    }
+
+    .tg-block {
+        margin-top: 100px;
+    }
+
+    .tg-a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 80px;
+        font-size: 28px;
+    }
+
+      .tg-a img {
+        width: 36px;
+        margin-right: 12px;
+    } 
+
+    .developers {
+        font-size: 20px;
+        letter-spacing: .7px;
+        margin-bottom: 10px;
+    }
+
+    .dev-urls {
+        margin-top:-14px;
     }
 }
