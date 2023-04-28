@@ -1,0 +1,163 @@
+/*
+1. Header
+2. Main
+3. Footer
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;400;600&display=swap');
+
+@font-face {
+	font-family: 'Amiko-SemiBold'; 
+	src: url(/fonts/Amiko-SemiBold.ttf); 
+}
+@font-face {
+	font-family: 'Amiko-Regular'; 
+	src: url(/fonts/Amiko-Regular.ttf); 
+}
+@font-face {
+	font-family: 'Amiko-Bold'; 
+	src: url(/fonts/Amiko-Bold.ttf); 
+}
+
+body{
+    position: relative;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000;
+	overflow-x: hidden;
+	height: auto;
+    margin: 0 auto;
+    background: #000;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Fira Sans Condensed';
+	font-weight: 400;
+	letter-spacing: .5px;
+	color: #fff;
+}
+
+/*1. Header*/
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #fff;
+}
+h1 {
+	font-family: 'Amiko-Bold';
+	font-size: 36px;
+	color:#fff;
+}
+/*2. Main*/
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+	min-height: calc(100vh - 101px);
+	height: auto;
+	margin: 0 auto;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+.project-descr {
+	width: 73.2%;
+	margin: 0 10px;
+	font-family: 'Fira Sans Condensed';
+	font-weight: 100;
+	letter-spacing: .7px;
+	color: #fff;
+}
+
+.project-descr p {
+	margin-left: 15px;
+}
+
+.first-block {
+	margin-top: 40px;
+}
+
+h2 {
+	font-family: 'Fira Sans Condensed';
+	font-weight: 400;
+	letter-spacing: .5px;
+}
+
+.tg-block {
+	margin-top: 70px;
+	transition: .4s;
+}
+
+.tg-block tg-a:hover {
+	transition: .4s;
+	font-size: 62px;
+}
+
+.tg-a {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 290px;
+	height: 60px;
+	font-size: 26px;
+}
+
+.tg-a::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border: 1px solid #fff;
+	transition: all .4s;
+  }
+  .tg-a:hover::before {
+	content: '';
+  position: absolute;
+  left: -5%;
+  width: 110%;
+  top: -5%;
+  height: 110%;
+  z-index: 3;
+  transition: all .4s;
+  }
+
+.tg-a img {
+	width: 40px;
+	margin-right: 20px;
+}
+/*2.1. Footer of main*/
+
+.developers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 0px;
+	margin-top: 100px;
+	font-family: 'Fira Sans Condensed';
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: .7px;
+	color:#fff;
+}
+
+.dev-urls {
+	margin-top:-18px;
+}
+
+.dev-urls a {
+	transition: .4s;
+	color:rgb(184, 184, 184);
+}
+
+.dev-urls a:hover {
+	transition: .4s;
+	color:#fff;
+}
