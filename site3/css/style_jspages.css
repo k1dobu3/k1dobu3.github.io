@@ -1,0 +1,519 @@
+.main-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1C1C1C;
+    overflow: hidden;
+}
+
+/* Специфические стили с градиентами для разных страниц */
+.background-gradient-faq {
+    position: absolute;
+    width: 215.05px;
+    height: 399.56px;
+    right: 40px;
+    top: 100px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url('../images/abstract-art.png');
+    background-size: cover;
+    filter: blur(75px);
+    transform: rotate(-106.8deg);
+}
+
+.background-gradient-reviews-left {
+    position: absolute;
+    width: 354.1px;
+    height: 264.02px;
+    left: 100px;
+    top: -10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url('../images/abstract-art.png');
+    background-size: cover;
+    filter: blur(75px);
+    transform: rotate(126.29deg);
+}
+
+.background-gradient-reviews-right {
+    position: absolute;
+    width: 962px;
+    height: 766px;
+    right: -300px;
+    top: -150px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url('../images/abstract-art.png');
+    background-size: cover;
+    filter: blur(100px);
+    transform: rotate(-21.31deg);
+}
+
+.background-gradient-res-left {
+    position: absolute;
+    width: 1049px;
+    height: 1064px;
+    left: -16px;
+    top: -2px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url('../images/abstract-art.png');
+    background-size: cover;
+    filter: blur(75px);
+}
+
+.background-gradient-res-top-right {
+    position: absolute;
+    width: 1149px;
+    height: 1064px;
+    right: -370px;
+    top: -436px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url('../images/abstract-art.png');
+    background-size: cover;
+    filter: blur(75px);
+}
+
+.background-gradient-res-bottom-right {
+    position: absolute;
+    width: 1149px;
+    height: 1064px;
+    right: -150px;
+    bottom: -900px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 100%), url('../images/abstract-art.png');
+    background-size: cover;
+    filter: blur(75px);
+    transform: rotate(175.29deg);
+}
+
+/* Общие стили для контейнеров и заголовков */
+.container-add-zone {
+    width: 100%;
+    max-width: 1460px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    min-width: 1000px;
+}
+
+.header-add-zone {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 1000px;
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 50px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 40px;
+    flex-grow: 1;
+}
+
+/* Стили страницы FAQ */
+.faq-items {
+    margin-top: 20px;
+    min-width: 1000px;
+}
+
+.faq-item {
+    padding: 15px 20px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #BEBEBE;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.faq-item:last-child {
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+.faq-question a {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.faq-question a:visited {
+    color: inherit;
+}
+
+.faq-question .new {
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--regular-weight);
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.faq-answer {
+    display: none;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    width: 500px;
+    margin-right: 20px;
+    color: #BEBEBE;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
+.faq-answer a {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.faq-answer a:visited {
+    color: inherit;
+}
+
+.faq-icon {
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+    min-width: 28px;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(90deg);
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+
+/* Стили страницы с отзывами */
+.reviews-title {
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 300;
+    flex-grow: 1;
+    width: inherit;
+}
+
+.review-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    overflow: visible;
+}
+
+.reviews-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.review-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.review-slide.active {
+    opacity: 1;
+    transform: translateX(0);
+    z-index: 1;
+}
+
+.review-slide.prev {
+    transform: translateX(-100%);
+}
+
+.review-slide.next {
+    transform: translateX(100%);
+}
+
+.review-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    transition: margin-top 0.6s ease-in-out;
+}
+
+.review-text {
+    max-width: 690px;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.review-text a {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.review-text a:visited {
+    color: inherit;
+}
+
+.review-image {
+    width: auto;
+    height: 435px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: calc((25px + 15px) / 2);
+}
+
+.review-author {
+    font-size: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.review-divider {
+    flex-grow: 1;
+    height: 1px;
+    background: #D9D9D9;
+    border: none;
+    margin-left: 20px;
+}
+
+.review-text p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.review-image img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    aspect-ratio: 1.375/1;
+}
+
+.review-arrow-left,
+.review-arrow-right {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.review-arrow-divider {
+    cursor: pointer;
+    margin: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transform: translateY(-1px);
+    z-index: 20;
+}
+
+#review-divider svg {
+    width: 110px;
+    height: 3px;
+    background: none;
+}
+
+#review-active-segment {
+    position: absolute;
+    left: 0;
+    transition: left 0.6s ease-in-out;
+}
+
+/* Стили для страницы с результатами */
+.result-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+.result-text {
+    width: 35%;
+    margin-top: 20px;
+    min-width: 300px;
+    flex-shrink: 0;
+}
+
+.phones {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+    min-height: 900px;
+    max-height: 800px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.result-text p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    min-width: 400px;
+}
+
+.result-text .highlight {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 25px;
+    max-width: 320px;
+    background: rgba(120, 120, 120, 0.2);
+    backdrop-filter: blur(7.5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 200;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: rgba(120, 120, 120, 0.4); /* Менее прозрачный фон при наведении */
+}
+
+.cta-button p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.phone {
+    position: absolute;
+    width: 361.5px;
+    height: 100%; 
+    max-height: 711px;
+    z-index: 1;
+    transition: transform 0.8s ease, opacity 0.8s ease, filter 0.8s ease; 
+    opacity: 0.7;
+    filter: blur(2px);
+}
+
+.phone-frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.phone-content {
+    position: absolute;
+    top: 3.5%;
+    left: 4%;
+    width: 92%;
+    height: 93%;
+    z-index: 5;
+    object-fit: contain;
+}
+
+.phone-back {
+    z-index: 1;
+}
+
+.phone-left {
+    transform: translateX(-45%) scale(0.8);
+}
+
+.phone-right {
+    transform: translateX(45%) scale(0.8);
+}
+
+.phone.active {
+    transform: translateX(0) scale(1);
+    z-index: 2;
+    opacity: 1;
+    filter: none;
+}
+
+.phone-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    z-index: 3;
+    cursor: pointer;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 15;
+}
+
+/* Левая стрелка управления */
+.left-control {
+    margin-right: 420px;
+}
+
+/* Правая стрелка управления */
+.right-control {
+    margin-left: 420px;
+}

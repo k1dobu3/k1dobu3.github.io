@@ -1,0 +1,487 @@
+@media screen and (max-width: 1919px ), (min-width: 1921px) {
+    h1::after {
+        background-size: 0;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .tarifs-cards-row {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .first-slogan {
+        width: 60%;
+        font-size: 50px;
+        line-height: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .between-margin {
+        gap: 150px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 150px;
+    }
+
+    h2 {
+        font-size: 100px;
+    }
+
+    .act-btn {
+        position: absolute;
+        left: 34%;
+        top: 64%;
+    }
+    
+    .main-courses {
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .main-courses .status {
+        display: none;
+    }
+
+    .tarifs-cards-row {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .courses-for {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+        width: inherit;
+    }
+
+    .courses-for-cards-container {
+        margin: 0;
+    }
+    
+    .right-courses-for h3 {
+        margin-bottom: 50px;
+    }
+
+
+    .assimilate-block {
+        flex-wrap: wrap;
+        width: 740px;
+    }
+
+    .text-assimilate-group {
+        width: 100%;
+    }
+
+    .left-courses-for .status{
+        display: none;
+    }
+    
+
+    .assimilate-block img {
+        display: none;
+    }
+
+    .leftside-courses .status{
+        display: none;
+    }
+
+    .tarifs-block {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    
+    .chelenge-block {
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .leftside-courses-chelenge {
+        display: none;
+    }
+
+    .footer-navigation {
+        justify-content: space-between;
+    }
+
+    .footer-container {
+        padding: 0 15px;
+        width: auto;
+    }
+
+    .container-add-zone {
+        width: inherit;
+        align-items: center;
+        justify-content: center;
+        min-width: 0px;
+    }
+
+    .header-add-zone {
+        width: inherit;
+        margin-top: 40px;
+        min-width: 0px;
+    }
+
+    .section-title {
+        display: none;
+    }
+
+    .title {
+        flex-grow: 0;
+    }
+
+    .review-navigation {
+        margin-top: 470px!important;
+        margin-left: 170px;
+    }
+
+    .result-content {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    .answer-block {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        height: auto; 
+        max-width: inherit;
+    }
+
+    .faq-answer {
+        width: 500px;
+    }
+
+    .faq-question {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    
+    .faq-question .new {
+        margin-right: auto;
+        font-size: 18px;
+        min-width: 0;
+        max-width: inherit
+    }
+
+    .faq-items {
+        width: inherit;
+        min-width: 0;
+    } 
+
+    .faq-item {
+        width: inherit;
+        max-width: 100%;
+    } 
+
+    .review-author {
+        margin-top: 12px;
+    }
+
+    .review-divider {
+        display: none;
+    }
+
+    .review-text {
+        min-height: 400px;
+    }
+
+    .reviews-title {
+        font-size: 60px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-weight: 300;
+        flex-grow: 1;
+        width: inherit;
+    }
+
+    .review-slide  {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+/* Tablet */
+
+@media screen and (max-width:1334px){
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .first-slogan {
+        width: 60%;
+    }
+
+    .button-banner {
+        max-width: 1450px;
+        width: 55%;
+        height: 510px;
+    }
+
+    .main-courses, .courses-for, .assimilate-block {
+        width: inherit;
+    }
+
+    h1 {
+        font-weight: var(--regular-weight);
+        font-size: 120px;
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-weight: var(--light-weight);
+        font-size: 80px;
+        line-height: 140px;
+    }
+    
+    h3 {
+        font-size: 48px;
+    }
+
+    .act-btn {
+        position: absolute;
+        left: 34%;
+        top: 74%;
+    }
+
+    .between-margin {
+        gap: 150px;
+        margin: 0;
+    }
+
+    .text-level {
+        align-items: center;
+    }
+
+    .need-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .act-block-paragpraph {
+        font-size: 16px;
+    }
+
+    .tarifs-block {
+        margin: 160px 0;
+        background-image: url(/assets/img/tarifs_full.png);
+    }
+
+    .tarifs-block h3 {
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+
+    .tarifs-cards-row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .tarifs-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 900px;
+        background-color: rgba(120, 120, 120, 0.2);
+        margin-bottom: 0;
+    }  
+
+    .tarifs-card img {
+        width: 406px;
+    }
+    
+    .banner-paragraph {
+        font-size: 28px;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+    
+    .button-banner_small {
+        width: 150px;
+        padding: 16px 20px;
+
+        font-size: 20px;
+
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:850px){
+    h1 {
+        font-size: 100px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .courses-cards-row {
+        flex-wrap: wrap;
+    }
+
+    .courses-for-col-3, .courses-for-col-2, .courses-for-cards-container{
+        flex-wrap: wrap;
+    }
+
+    .text-assimilate-group {
+        width: 80%;
+    }
+    
+    h2 {
+        font-size: 74px;
+        line-height: 110px;
+    }
+    
+    h3 {
+        font-size: 48px;
+    }
+
+    .act-btn {
+        position: absolute;
+        left: 34%;
+        top: 68%;
+    }
+
+    .between-margin {
+        margin: 0;
+    }
+
+    .act-block-descr {
+        margin-left: 15px;
+        width: 100%;
+        padding: 25px;
+        justify-content: left;
+    }
+
+    .text-level {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .text-act-block {
+        margin-top: 80px;
+    }
+
+}
+
+/* Micro Mobile*/
+
+@media screen and (max-width:780px){
+    .container {
+        gap: 60px;
+    }
+    
+    .nav-block {
+        gap: 30px;
+        margin-left: 75px;
+    }
+
+    .first-slogan {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 40px;
+    }
+
+    .text-act-block {
+        margin-top: 200px;
+    }
+
+    .act-block-paragpraph {
+        display: none;
+    }
+
+    .act-btn {
+        position: absolute;
+        left: 66%;
+        top: 68%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+      }
+
+    .button-banner {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .footer-wrap li a {
+        font-size: 14px;
+    }
+
+    .list-nav {
+        gap: 18px;
+        
+    }
+
+    .footer-social {
+        margin-top: 32px;
+    }
+
+    .footer-navigation {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .text-assimilate-group {
+        width: 100%;
+    }
+
+    .assimilate-block-left, .main-courses, .courses-for {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .act-btn {
+        position: absolute;
+        left: 38%;
+        top: 58%;
+    }
+
+
+
+    .button-start {
+        width: 100%;
+        padding: 26px 70px;
+        background-color: rgba(194, 194, 194, 0.2);
+        
+        margin-top: 40px;
+        border: 0;
+
+        font-size: 30px;
+    }
+
+}   
