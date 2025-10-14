@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Разработчик и Дизайнер</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="icons/favicon.svg" />
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text" data-en="gorddev • try to make games better" data-ru="gorddev • делаю мир игр лучше">gorddev • try to make games better</span>
+            </div>
+            <div class="nav-controls">
+                <div class="language-switch">
+                    <button id="langToggle" class="lang-btn">
+                        <span class="current-lang">RU</span>
+                        <i class="fas fa-globe"></i>
+                    </button>
+                </div>
+                <div class="theme-switch">
+                    <button id="themeToggle" class="theme-btn">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-en="Kirill Gordienko game and interface developer" data-ru="Кирилл Гордиенко - разработчик игр и интерфейсов">
+                        Кирилл Гордиенко - разработчик игр и интерфейсов
+                    </h1>
+                    <p class="hero-description" data-en="I`m 22 years old and i work at the intersection of game design and programming — developing interfaces, systems, and mechanics that pull players deep into the experience. Years with Unity and Unreal let me turn visual ideas into running code and shepherd concepts all the way to shippable features." data-ru="Мне 22 и я работаю на стыке геймдизайна и программирования — создаю интерфейсы, игровые системы и механики, которые создают полное погружение игрока. Опыт в Unity и Unreal Engine помогает мне соединять визуальные идеи с технической реализацией и доводить концепты до рабочего результата.">
+                        Мне 22 и я работаю на стыке геймдизайна и программирования — создаю интерфейсы, игровые системы и механики, которые создают полное погружение игрока. Опыт в Unity и Unreal Engine помогает мне соединять визуальные идеи с технической реализацией и доводить концепты до рабочего результата.
+                    </p>
+                    <p class="hero-description" data-en="I value clean logic, pixel-level polish, and building systems that are as clear to players as they are to the devs who maintain them." data-ru="Ценю логику, внимание к деталям и желание делать системы понятные, как игрокам, так и разработчикам.">
+                        Ценю логику, внимание к деталям и желание делать системы понятные, как игрокам, так и разработчикам.
+                    </p>
+                    <!-- <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label" data-en="Years Experience" data-ru="Лет опыта">Лет опыта</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label" data-en="Projects Completed" data-ru="Завершенных проектов">Завершенных проектов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label" data-en="Technologies" data-ru="Технологий">Технологий</span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.png" alt="Workspace" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция навыков -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-en="Stack" data-ru="Стэк">Стэк</h2>
+            <div class="skills-grid">
+                <div class="skill-item" data-skill="unreal">
+                    <div class="skill-icon">
+                        <img src="icons/icons-unreal-engine-250.png" alt="Unreal Engine" class="skill-img">
+                    </div>
+                    <span class="skill-name">Unreal Engine</span>
+                </div>
+                <div class="skill-item" data-skill="figma">
+                    <div class="skill-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <span class="skill-name">Figma</span>
+                </div>
+                <div class="skill-item" data-skill="miro">
+                    <div class="skill-icon">
+                        <img src="icons/icons-miro-250.png" alt="Miro" class="skill-img">
+                    </div>
+                    <span class="skill-name">Miro</span>
+                </div>
+                <div class="skill-item" data-skill="week">
+                    <div class="skill-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <span class="skill-name">WEEEK</span>
+                </div>
+                <div class="skill-item" data-skill="notion">
+                    <div class="skill-icon">
+                        <img src="icons/icons-notion-250.png" alt="Notion" class="skill-img">
+                    </div>
+                    <span class="skill-name">Notion</span>
+                </div>
+                <div class="skill-item" data-skill="unity">
+                    <div class="skill-icon">
+                        <img src="icons/icons-unity-250.png" alt="Unity" class="skill-img">
+                    </div>
+                    <span class="skill-name">Unity</span>
+                </div>
+                <div class="skill-item" data-skill="adobe">
+                    <div class="skill-icon">
+                        <img src="icons/icons-adobe-250.png" alt="Adobe package" class="skill-img">
+                    </div>
+                    <span class="skill-name">Adobe Package</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция проектов -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-en="Projects" data-ru="Проекты">Избранные Проекты</h2>
+            
+            <!-- Проект 1 -->
+            <div class="project-item">
+                <div class="project-content">
+                    <div class="project-media">
+                        <div class="project-screenshots">
+                            <img src="projects/blindture/logo.png" alt="Blindture Game" class="project-img">
+                        </div>
+                        <div class="project-screenshots">
+                            <img src="projects/blindture/screen2.jpg" alt="Blindture Gameplay" class="project-img">
+                        </div>
+                        <!-- <div class="project-video">
+                            <iframe src="https://youtu.be/WlvB1BMbaC8?si=7vS4rowRbNNHtdwG" frameborder="0" allowfullscreen></iframe>
+                        </div> -->
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-en="Horror Adventure Blindture" data-ru="Хоррор-Адвенчур Blindture">Хоррор-Адвенчур Blindture</h3>
+                        <div class="project-description">
+                            <p data-en="A project created in three days during participation in Gamejam. A horror adventure in a cave for a person who navigates only by sound waves, like a bat. The goal is to find your way and get out unharmed." data-ru="Проект созданный за 3 дня во время участия в Gamejam. Хоррор приключение в пещере за человека, ориентирующегося только на звуковые волны, как летучая мышь. Цель - искать себе путь и выбраться невредимым.">
+                                Проект созданный за 3 дня во время участия в Gamejam. Хоррор приключение в пещере за человека, ориентирующегося только на звуковые волны, как летучая мышь. Цель - искать себе путь и выбраться невредимым.
+                            </p>
+                            <p data-en="As a game designer, I came up with the game's lore and core mechanics. While searching for references, I was drawn to the cave models from Penumbra. The game focused on sounds, volume, and accurately conveying emotions." data-ru="Как геймдизайнер придумал лор игры, основные механики. Вовремя этого искал референсы, когда привлекла модель пещер из Penumbra. Упор в игре делался на звуки, из объемность и правильную передачу чувств.">
+                                Как геймдизайнер придумал лор игры, основные механики. Вовремя этого искал референсы, когда привлекла модель пещер из Penumbra. Упор в игре делался на звуки, из объемность и правильную передачу чувств.
+                            </p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-label" data-en="My Role:" data-ru="Моя роль:">Моя роль:</span>
+                            <span class="role-text" data-en="Game Designer & Developer" data-ru="Геймдизайнер, разработчик">Геймдизайнер, разработчик</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/WlvB1BMbaC8?si=7vS4rowRbNNHtdwG" class="project-link" data-en="Watch trailer" data-ru="Посмотреть трейлер" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-download"></i>
+                                Посмотреть трейлер
+                            </a>
+                            <a href="https://disk.yandex.ru/d/yv3DiujKa5ag5Q" class="project-link" data-en="Download Game" data-ru="Скачать игру" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-download"></i>
+                                Скачать игру
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Проект 2 -->
+            <div class="project-item">
+                <div class="project-content">
+                    <div class="project-media">
+                        <div class="project-screenshots">
+                            <img src="projects/nightdrive/logo ND.jpg" alt="Arcad racing Nightdrive" class="project-img">
+                        </div>
+                        <div class="project-screenshots">
+                            <img src="projects/nightdrive/NightDrive.png" alt="Nightdrive rx7" class="project-img">
+                        </div>
+                        <div class="project-screenshots">
+                            <img src="projects/nightdrive/settings.png" alt="Nightdrive UI" class="project-img">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-en="Arcade racing Nightdrive" data-ru="Аркадная гонка Nightdrive">Аркадная гонка Nightdrive</h3>
+                        <div class="project-description">
+                            <p data-en="Nightdrive is a racing arcade game for PC developed using Unreal Engine 5.5. The goal was to explore the racing genre and implement good car physics." data-ru="Nightdrive - гоночная аркада для пк, которая разработанна на Unreal Engine 5.5. Целью было исследование жанра гонок и реализации хорошей физики автомобиля.">
+                                Nightdrive - гоночная аркада для пк, которая разработанна на Unreal Engine 5.5. Целью было исследование жанра гонок и реализации хорошей физики автомобиля. 
+                            </p>
+                            <p data-en="The project development began with the creation of a design document that defined the arcade racing style, key game modes, and competitor analysis. This allowed the team to form a unified vision for the project." data-ru="Разработка проекта началась с составления дизайн-документа, в котором были определены стиль аркадной гонки, ключевые игровые режимы и анализ конкурентов. Это позволило команде сформировать единое видение проекта.">
+                                Разработка проекта началась с составления дизайн-документа, в котором были определены стиль аркадной гонки, ключевые игровые режимы и анализ конкурентов. Это позволило команде сформировать единое видение проекта.
+                            </p>
+                            <p data-en="The physics were implemented using physical formulas based on blueprints. A modular system was used for the separate implementation of the gearbox, and a data-driven design approach was used to create a vehicle data table based on data structures for each of its states (engine, gearbox, suspension, etc.)." data-ru="Физика была реализована с применением физических формул на основе блюпринтов. Была использована модульная система для отдельной реализации коробки передач, а также подход Data-Driven Design для создания таблицы данных автомобиля, основанной на структурах данных для каждого из его состояний(мотор, коробка, подвеска и т.д.)">
+                                Физика была реализована с применением физических формул на основе блюпринтов. Была использована модульная система для отдельной реализации коробки передач, а также подход Data-Driven Design для создания таблицы данных автомобиля, основанной на структурах данных для каждого из его состояний(мотор, коробка, подвеска и т.д.)
+                            </p>
+                            <p data-en="In addition, methods for changing the camera depending on speed were implemented to convey a sense of speed. Arcade mechanics were specifically added to optimize keyboard controls, which is necessary for arcade racing on PCs." data-ru="Также для передачи чувства скорости были реализованы методы изменений камеры в зависимости от скорости. И специально добавлены аркадные механики для оптимизации управления через клавиатуры, что необходимо для аркадных гонок на пк.">
+                                Также для передачи чувства скорости были реализованы методы изменений камеры в зависимости от скорости. И специально добавлены аркадные механики для оптимизации управления через клавиатуры, что необходимо для аркадных гонок на пк.
+                            </p>
+                            <p data-en="As an interface designer, I created an adaptive HUD designed in Figma. I created a tuning interface with special hints that introduce players to the essence of the parameters that can be changed." data-ru="В качестве дизайнера интерфейсов был сверстан адаптивный HUD, спроектированный в Figma. Создан интерфейс тюнинга с специальными подсказками, вводящими игроков в суть изменяемых параметров.">
+                                В качестве дизайнера интерфейсов был сверстан адаптивный HUD, спроектированный в Figma. Создан интерфейс тюнинга с специальными подсказками, вводящими игроков в суть изменяемых параметров.
+                            </p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-label" data-en="My Role:" data-ru="Моя роль:">Моя роль:</span>
+                            <span class="role-text" data-en="Game Designer, physic developer, UI/UX" data-ru="Геймдизайнер, разработчик физики, UI/UX">Геймдизайнер, разработчик физики, UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://gemdoc.ru/doc/ficn7d0v85sc" class="project-link" data-en="View Design Doc" data-ru="Диз.док" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-figma"></i>
+                                Диз.док
+                            </a>
+                            <a href="#" class="project-link" data-en="Download prototype" data-ru="Скачать прототип" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-play"></i>
+                                Скачать прототип 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Проект 3 -->
+            <div class="project-item">
+                <div class="project-content">
+                    <div class="project-media">
+                        <div class="project-screenshots">
+                            <img src="projects/p.wheel/pwheel.png" alt="p.wheel" class="project-img">
+                        </div>
+                        <!-- <div class="project-video">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                        </div> -->
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title" data-en="Simulated physics of a car p.wheel" data-ru="Симулятивная физика автомобиля p.wheel">Симулятивная физика автомобиля p.wheel</h3>
+                        <div class="project-description">
+                            <p data-en="A physics-based car simulator project from Nightdrive. Ability to configure all parameters of the car's physical state, control details, and configure chip tuning. The project is implemented on Unreal Engine 5.5. All project results will be posted on the YouTube channel.
+" data-ru="Проект симулятора автомобиля на основе физики Nightdrive. Возможность настройки всех параметров физического состояния автомобиля, управления деталями и настройки чип тюнинга. Проект реализуется на Unreal Engine 5.5. Все результаты по проекту будут выкладываться на YouTube канал.">
+                                Проект симулятора автомобиля на основе физики Nightdrive. Возможность настройки всех параметров физического состояния автомобиля, управления деталями и настройки чип тюнинга. Проект реализуется на Unreal Engine 5.5. Все результаты по проекту будут выкладываться на YouTube канал.
+                            </p>
+                        </div>
+                        <div class="project-role">
+                            <span class="role-label" data-en="My Role:" data-ru="Моя роль:">Моя роль:</span>
+                            <span class="role-text" data-en="Fullstack Developer" data-ru="Фулстак разработчик">Фулстак разработчик</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" data-en="Coming soon..." data-ru=" Скоро будет...">
+                                <i class="fas fa-download"></i>
+                                Скоро будет...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция контактов -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-en="Get In Touch" data-ru="Свяжитесь со мной">Свяжитесь со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description" data-en="Interested in working together? Feel free to reach out through any of these platforms:" data-ru="Заинтересованы в сотрудничестве? Не стесняйтесь обращаться через любую из этих платформ:">
+                        Заинтересованы в сотрудничестве? Не стесняйтесь обращаться через любую из этих платформ:
+                    </p>
+                </div>
+                <div class="social-links">
+                    <a href="https://t.me/bu5hid0" class="social-link" title="Telegram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-telegram-plane"></i>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCwhBx0HD8JhggvHp99i9TbQ" class="social-link" title="YouTube" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://www.behance.net/k1dobu3" class="social-link" title="Behance" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-behance"></i>
+                        <span>Behance</span>
+                    </a>
+                    <a href="mailto:k1buwork@gmail.com" class="social-link" title="Email" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text" data-en="© 2024 Portfolio." data-ru="© 2024 Портфолио, окак.">
+                © 2025 Портфолио, окак.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
